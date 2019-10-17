@@ -7,7 +7,7 @@ const app = express();
 const path = require("path");
 const router = express.Router();
 const server = http.createServer(app);
-const port = 3002;
+const port = 3090;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
