@@ -1,0 +1,40 @@
+
+#playlistName{
+    width:80%;
+    height:40px;
+    border:2px solid #000;
+    float:right;
+}
+
+#playlistDiv{
+    padding:20px;;
+}
+
+#container{
+    padding-top: 50px;
+}
+
+#left{
+    width:30%;
+    height:260px;
+    border:2px solid #000;
+    float:left;
+}
+
+#right{
+    width:69%;
+    float: right;
+    height:260px;
+}
+
+#addNameDiv, #editNameDiv, #deleteIdDiv{
+    float: right;
+    padding:20pt;
+}
+
+
+#sortDiv{
+    float: left;
+    position: relative;
+}
+

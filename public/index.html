@@ -1,0 +1,47 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Playlists</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="playlistDiv">
+            <label id="playlistName"></label>
+        </div>
+    <div id="container">
+        <div id="left">
+            <div id="musicianList">
+                <label>List of Musicians</label>
+            </div>
+        </div>
+        <div id="right">
+            <form action="add" method="post">
+                <div id="addNameDiv">
+                    <input type="text" id="enterName" placeholder="(enter musician name)" name="singerName">
+                    <button id="addName">Add</button>
+                </div>
+            </form>
+
+            <form action="edit" method="post">
+                <div id="editNameDiv">
+                    <input type="text" id="editName" placeholder="(enter new musician name)">
+                    <input type="textarea" id="editId" placeholder="(ID - musician you want to change)">
+                    <button id="edit">Edit</button>
+                </div>
+            </form>
+
+            <form action="delete" method="post">
+                <div id="deleteIdDiv">
+                    <input type="text" id="deleteId" placeholder="(ID - musician you want to delete)">
+                    <button id="delete">Delete</button>
+                </div>
+            </form>
+
+            <form action="sort" method="post">
+                <div id="sortDiv">
+                    <button id="sort">Sort List</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
